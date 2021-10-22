@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,UADQ,GACJ,EAAE,CAAC;EACL,MAAM,EAAE,OAAO;CAOhB;;AATH,AAII,UAJM,GACJ,EAAE,AAGH,UAAU,CAAC;EACV,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,eAAe,EAAE,YAAY;CAC9B",
+    "sources": [
+        "../src/features/todo/component/todoList/styles.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
