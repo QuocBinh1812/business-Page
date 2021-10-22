@@ -44,7 +44,7 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Redirect from="/" to="/products" exact />
+        <Redirect from="/business-Page" to="/products" exact />
         {/* <Redirect from="/post-list/:postId" to="/posts/:postId" /> */}
         <Route path="/todos" component={TodoFeature} />
         <Route path="/albums" component={AlbumFeature} exact />
@@ -53,7 +53,7 @@ function App() {
         {/* <Route path="/" component={CounterFeature} /> */}
 
         {/* path="/" nen de cuoi cung de khi su dung useRouteMacth trong component con ko biet an dau / */}
-        <Route component={NotFound} />
+        <Route component={ProductFeature} />
       </Switch>
     </div>
   );
