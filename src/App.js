@@ -53,7 +53,7 @@ function App() {
         {/* <Route path="/" component={CounterFeature} /> */}
 
         {/* path="/" nen de cuoi cung de khi su dung useRouteMacth trong component con ko biet an dau / */}
-        <Route component={ProductFeature} />
+        <Route component={NotFound} />
       </Switch>
     </div>
   );
