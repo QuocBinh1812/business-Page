@@ -88,7 +88,7 @@ export default function Header() {
           <CodeIcon className={classes.menuButton} />
           <Typography variant="h6" className={classes.title}>
             <Link className={classes.link} to="/products">
-              EZ SHOP
+              My SHOP
             </Link>
           </Typography>
           {/* <Button color="inherit">Todo</Button>

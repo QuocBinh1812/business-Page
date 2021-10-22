@@ -45,6 +45,7 @@ function App() {
       <Header />
       <Switch>
         <Redirect from="/business-Page" to="/products" exact />
+        <Redirect from="/" to="/products" exact />
         {/* <Redirect from="/post-list/:postId" to="/posts/:postId" /> */}
         <Route path="/todos" component={TodoFeature} />
         <Route path="/albums" component={AlbumFeature} exact />
